@@ -1,0 +1,10 @@
+#!./bin/bash
+rm -rf ./nvboard/.git
+rm -rf ./ics2022/navy-apps/apps/bird/repo/.git
+rm -rf ./ics2022/navy-apps/apps/pal/repo/.git
+rm -rf ./ics2022/navy-apps/libs/libc/.git
+rm -rf ./ics2022/am-kernels/.git
+rm -rf ./ics2022/fceux-am/.git
+rm -rf ./ics2022/.git
+rm -rf ./ics2022/nemu/tools/spike-diff/repo/.git
+rm -rf ./.git

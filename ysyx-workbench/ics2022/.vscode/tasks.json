@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "make",
+            "command": "make ARCH=riscv64-nemu mainargs=k gdb",
+        }
+    ],
+    "version": "2.0.0"
+} 

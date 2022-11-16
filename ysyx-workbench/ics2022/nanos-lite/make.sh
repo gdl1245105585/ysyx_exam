@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/navy-apps/tests/dummy
+make ISA=riscv64
+cd build 
+mv /home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/navy-apps/tests/dummy/build/hello-riscv64 /home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/nanos-lite/build/ramdisk.img
+cd /home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/nanos-lite
+make make ARCH=riscv64-nemu run
+
+
