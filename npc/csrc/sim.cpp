@@ -166,7 +166,6 @@ int main(int argc, char** argv) {
     uint32_t ext_addr;
     uint64_t ext_write_data;
     uint64_t mmio_write_data;
-    // char pwd[200] ="/home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/am-kernels/tests/cpu-tests/build/";
     // strcat(pwd,argv[1]);
     printf("%s",argv[1]);
     FILE   *fp = fopen(argv[1],"r");
