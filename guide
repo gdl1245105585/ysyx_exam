@@ -1,0 +1,2 @@
+如果想运行仙剑 可以在npc目录下make pal
+其中 需要先修改Makefile中 第二行CODE_PWD的值 改为你当前地址
