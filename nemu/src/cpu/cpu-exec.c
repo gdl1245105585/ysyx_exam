@@ -60,8 +60,6 @@ static void exec_once(Decode *s, vaddr_t pc) {
   //printf("cpu.gpr[17] :%lx addr :%lx\n",cpu.gpr[17],pc);
   // printf(" nemu :240 data :%lx\n",paddr_read(0x80000240,4));
   // printf(" npc :240 data :%lx\n",npc_ram_read(0x00000240,4));
-  //assert(pc_record);
-  //assert(fprintf(pc_record,"%lx\n",cpu.pc)!= 1);
   cpu.pc = s->dnpc;
   
   // printf("nemu ra :%lx at %lx\n",cpu.gpr[1],cpu.pc);
@@ -138,7 +136,6 @@ void cpu_exec(uint64_t n) {
 
   uint64_t timer_end = get_time();
   g_timer += timer_end - timer_start;
-  //fclose(pc_record);
   switch (nemu_state.state) {
     case NEMU_RUNNING: nemu_state.state = NEMU_STOP; break;
 

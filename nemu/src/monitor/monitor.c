@@ -275,8 +275,6 @@ void init_monitor(int argc, char *argv[]) {
     MUXDEF(CONFIG_ISA_riscv32, "riscv32",
     MUXDEF(CONFIG_ISA_riscv64, "riscv64", "bad")))) "-pc-linux-gnu"
   ));
-  pc_record = fopen("/home/guodl/Desktop/ysyx/ysyx-workbench/npc/debug_file/debug_file.txt","w+");
-  assert(pc_record);
   /* Display welcome message. */
   welcome();
 }

@@ -21,7 +21,6 @@
 #include <SDL2/SDL.h>
 #endif
 extern void *vmem;
-extern FILE* fp_vga_debug;
 void init_map();
 void init_serial();
 void init_timer();
@@ -46,8 +45,6 @@ void device_update() {
   last = now;
   
   IFDEF(CONFIG_HAS_VGA, vga_update_screen());
-  for(int i=0;i<10;i++)
-    fprintf(fp_vga_debug,"%d\n",*(uint32_t*)(vmem+4*i));
 #ifndef CONFIG_TARGET_AM
   SDL_Event event;
   while (SDL_PollEvent(&event)) {
