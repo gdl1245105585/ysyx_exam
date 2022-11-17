@@ -1,5 +1,5 @@
 TOPNAME = my_cpu
-CODE_PWD = /home/guodl/Desktop/ysyx/ysyx-workbench/npc
+CODE_PWD = $(NPC_HOME)
 
 INC_PATH = $(CODE_PWD)/include
 
