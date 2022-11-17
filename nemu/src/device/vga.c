@@ -81,7 +81,6 @@ void vga_update_screen() {
 }
 
 void init_vga() {
- // fp_vga_debug = fopen("/home/guodl/Desktop/ysyx/ysyx-workbench/npc/debug_file/vga_debug.txt","w+");
   vgactl_port_base = (uint32_t *)new_space(8);
   vgactl_port_base[0] = (screen_width() << 16) | screen_height();
 #ifdef CONFIG_HAS_PORT_IO
