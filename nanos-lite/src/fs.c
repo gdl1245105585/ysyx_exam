@@ -61,7 +61,7 @@ int fs_open(const char *pathname)
 {
   //asm volatile ("fence.i");
   printf("\n open file %s\n",pathname);
-  for(int i=0;i<66;i++)
+  for(int i=0;i<100;i++)
   {
     if(strcmp(file_table[i].name,pathname) ==0)
     {

@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f Vmy_cpu.mk
 
-default: /home/guodl/Desktop/ysyx-workbench/npc/build/my_cpu
+default: /home/guodl/ysyx-exam/ysyx_exam/npc/build/my_cpu
 
 ### Constants...
 # Perl executable (from $PERL)
@@ -36,7 +36,7 @@ VM_MODPREFIX = Vmy_cpu
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
 	-lmingw32 -lSDLmain -lSDL -lSDL2 \
-	-I/home/guodl/Desktop/ysyx/ysyx-workbench/npc/include \
+	-I/home/guodl/ysyx-exam/ysyx_exam/npc/include \
 	-DTOP_NAME="Vmy_cpu" \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
@@ -52,7 +52,7 @@ VM_USER_CLASSES = \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
-	/home/guodl/Desktop/ysyx-workbench/npc/csrc \
+	/home/guodl/ysyx-exam/ysyx_exam/npc/csrc \
 
 
 ### Default rules...
@@ -64,11 +64,11 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-sim.o: /home/guodl/Desktop/ysyx-workbench/npc/csrc/sim.cpp
+sim.o: /home/guodl/ysyx-exam/ysyx_exam/npc/csrc/sim.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
 
 ### Link rules... (from --exe)
-/home/guodl/Desktop/ysyx-workbench/npc/build/my_cpu: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
+/home/guodl/ysyx-exam/ysyx_exam/npc/build/my_cpu: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
 	$(LINK) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 

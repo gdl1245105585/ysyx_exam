@@ -13,11 +13,11 @@ extern "C" {
 
 
     // DPI IMPORTS
-    // DPI import at /home/guodl/Desktop/ysyx-workbench/npc/vsrc/regfile.v:2:30
+    // DPI import at /home/guodl/ysyx-exam/ysyx_exam/npc/vsrc/regfile.v:2:30
     extern void set_gpr_ptr(const svOpenArrayHandle a);
-    // DPI import at /home/guodl/Desktop/ysyx-workbench/npc/vsrc/ram.v:1:30
+    // DPI import at /home/guodl/ysyx-exam/ysyx_exam/npc/vsrc/ram.v:1:30
     extern void set_ram_ptr(const svOpenArrayHandle a);
-    // DPI import at /home/guodl/Desktop/ysyx-workbench/npc/vsrc/mmio.v:143:30
+    // DPI import at /home/guodl/ysyx-exam/ysyx_exam/npc/vsrc/mmio.v:143:30
     extern void set_vmem_ptr(const svOpenArrayHandle a);
 
 #ifdef __cplusplus
