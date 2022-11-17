@@ -18,7 +18,6 @@
 extern uint64_t g_nr_guest_inst;
 FILE *log_fp = NULL;
 
-FILE *fp_pc_trace = NULL;
 void init_log(const char *log_file) {
   log_fp = stdout;
   if (log_file != NULL) {
@@ -28,8 +27,6 @@ void init_log(const char *log_file) {
   }
   Log("Log is written to %s", log_file ? log_file : "stdout");
 
-  FILE *fp_pc_trace = fopen("/home/guodl/Desktop/ysyx/ysyx-workbench/npc/debug_file/debug-file", "w+");
-  assert(fp_pc_trace);
 }
 
 bool log_enable() {
