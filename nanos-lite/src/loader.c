@@ -17,7 +17,7 @@ static uintptr_t loader(PCB *pcb, const char *filename) {
  
   Elf_Ehdr Ehdr;
   int fd = fs_open(filename);
-
+  fs_lseek(fd,0, 0);  //protection
   fs_read(fd, &Ehdr, sizeof(Ehdr));
   //assert(*(uint64_t *)Ehdr->e_ident == 0xBadC0de); 
   for(int i = 0; i < Ehdr.e_phnum; i++){
