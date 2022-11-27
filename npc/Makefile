@@ -4,7 +4,7 @@ CODE_PWD = $(NPC_HOME)
 INC_PATH = $(CODE_PWD)/include
 
 VERILATOR = verilator
-VERILATOR_CFLAGS += -MMD --cc --exe -Wno-STMTDLY --build --trace -O3 -CFLAGS "-lmingw32 -lSDL2main -lSDL -lSDL2" -LDFLAGS -ldl -LDFLAGS "-lSDL2main -lSDL -lSDL2" 
+VERILATOR_CFLAGS += -MMD --cc --exe -Wno-STMTDLY --build --trace -O3 -CFLAGS "-lmingw32 -lSDL2main -lSDL2" -LDFLAGS -ldl -LDFLAGS "-lSDL2main -lSDL2" 
 
 BUILD_DIR = ./build
 OBJ_DIR = $(BUILD_DIR)/obj_dir
