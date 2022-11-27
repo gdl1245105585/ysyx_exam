@@ -89,7 +89,6 @@ static int cmd_info(char *args) {
 #ifdef watchoutPoint
 static int cmd_w(char *args) {
 		
-	sscanf(args, "%lld", &pc_watchout);
 	return 0;
 }
 #endif

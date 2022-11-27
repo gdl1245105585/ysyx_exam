@@ -21,4 +21,3 @@
 word_t expr(char *e, bool *success);
 
 #endif
-long long pc_watchout ;
