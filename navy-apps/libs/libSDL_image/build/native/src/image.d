@@ -1,11 +1,11 @@
-/home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libSDL_image/build/native/./src/image.o: \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libSDL_image/src/image.c \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libSDL_image/src/SDL_stbimage.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/SDL.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-general.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-event.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-timer.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-video.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-audio.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-file.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libSDL_image/src/stb_image.h
+/home/guodl/Desktop/ysyx_exam/navy-apps/libs/libSDL_image/build/native/./src/image.o: \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libSDL_image/src/image.c \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libSDL_image/src/SDL_stbimage.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/SDL.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-general.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-event.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-timer.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-video.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-audio.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-file.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libSDL_image/src/stb_image.h

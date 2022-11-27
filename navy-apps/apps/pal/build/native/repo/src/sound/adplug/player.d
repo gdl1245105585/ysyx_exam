@@ -1,5 +1,5 @@
-/home/guodl/ysyx-exam/ysyx_exam/navy-apps/apps/pal/build/native/repo/src/sound/adplug/player.o: \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/player.cpp \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/player.h \
- /home/guodl/ysyx-exam/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/opl.h \
+/home/guodl/Desktop/ysyx_exam/navy-apps/apps/pal/build/native/repo/src/sound/adplug/player.o: \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/player.cpp \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/player.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/apps/pal/repo/src/sound/adplug/opl.h \
  repo/include/opltypes.h
