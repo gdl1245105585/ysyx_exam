@@ -33,7 +33,7 @@ default : all
 .PHONY : default
 
 project_name := spike
-src_dir      := /home/guodl/Desktop/ysyx/ysyx-workbench/ics2022/nemu/tools/spike-diff/repo
+src_dir      := /home/guodl/Desktop/ysyx-workbench/nemu/tools/spike-diff/repo
 scripts_dir  := $(src_dir)/scripts
 
 HAVE_INT128 := yes

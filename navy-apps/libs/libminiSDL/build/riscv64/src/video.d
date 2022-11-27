@@ -1,0 +1,28 @@
+/home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/build/riscv64/src/video.o: \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/src/video.c \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libndl/include/NDL.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/stdint.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/machine/_default_types.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/features.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/_newlib_version.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/_intsup.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/_stdint.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libminiSDL/include/sdl-video.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/assert.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/_ansi.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/newlib.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/config.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/machine/ieeefp.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/string.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/reent.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/_ansi.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/_types.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/machine/_types.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/lock.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/cdefs.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/_locale.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/strings.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/sys/string.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/stdlib.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/machine/stdlib.h \
+ /home/guodl/Desktop/ysyx_exam/navy-apps/libs/libc/include/alloca.h

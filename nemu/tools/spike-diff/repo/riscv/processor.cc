@@ -322,7 +322,7 @@ void state_t::reset(reg_t max_isa)
   prv = PRV_M;
   v = false;
   misa = max_isa;
-  mstatus = 0xa00001800;
+  mstatus = 0;
   mepc = 0;
   mtval = 0;
   mscratch = 0;

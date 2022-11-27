@@ -1,1 +1,1 @@
-/home/guodl/ysyx-exam/ysyx_exam/navy-apps/libs/libos/src/syscall.h
+/home/guodl/Desktop/ysyx_exam/navy-apps/libs/libos/src/syscall.h
